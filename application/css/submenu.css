@@ -1,0 +1,29 @@
+
+.mainmenu li:hover .submenu {
+  display: block;
+  max-height: 300px;
+}
+
+
+.submenu {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: all 0.5s ease-out;
+}
+
+.submenu a{
+    color: #337ab7;
+    text-decoration: none;
+    line-height:37px;
+}
+
+.submenu li:hover {
+  background-color: #333;
+}
+
+.submenu li{
+    height:37px;
+}
+.submenu {
+  list-style: none;
+}

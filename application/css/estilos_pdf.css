@@ -1,0 +1,66 @@
+p{
+    /* Font */
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+blockquote
+{
+    font-style: italic;
+    font-family: serif;
+}
+
+.titulo{
+    width: 100%;
+    background-color: rgb(0, 45, 98);
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.subtitulo{
+    text-transform: uppercase;
+}
+
+.resaltado{
+    background-color: #FFFF00;
+}
+
+.alignLeft{
+    text-align: left;
+}
+
+.alignCenter{
+    text-align: center;
+}
+
+.alignRight{
+    text-align: right;
+}
+
+.alignJustify{
+    text-align: justify;
+}
+
+ol{
+    counter-reset: item;
+}
+ol li{
+    display: block;
+}
+ol li:before{
+    content: counters(item, ".") ". ";
+    counter-increment: item;
+}
+
+th{
+    background-color: rgb(0, 45, 98);
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+}
+
+td{
+    vertical-align: middle;
+}

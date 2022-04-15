@@ -1,0 +1,47 @@
+body {
+    font-family: Helvetica, Verdana;
+    font-size: 11pt;
+    background-color: #fff;
+    color: #000;            
+}
+
+p{
+    text-align: justify;
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+.lista{
+    list-style-type: img|png|2|2|img/bullet.png;
+}
+
+.titulo{
+    font-size: 15pt;
+    text-transform: uppercase;
+    color: #1E325C;
+    font-weight: bold;
+}
+
+.subtitulo{
+    font-size: 13pt;
+    color: #1E325C;
+    font-weight: bold;
+}
+
+.seccion{
+    font-weight: bold;
+}
+
+.titulo-imagen{
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+}
